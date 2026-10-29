@@ -2,4 +2,4 @@ This package implements the affine tracing framework as described in the paper A
 
 Install this package by running `pip install .` in project root folder (where pyproject.toml is located).
 
-Examples in cagp_synthetic.ipynb.
+Examples in demo.ipynb.
