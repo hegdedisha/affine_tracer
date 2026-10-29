@@ -1,0 +1,23 @@
+[project]
+name = "affine_tracer"
+version = "0.1.0"
+description = "Implements affine tracing framework for probabilistic linear solvers, and with inverse priors"
+
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy",
+    "scipy",
+    "networkx",
+    "egglog",
+    "plum-dispatch",
+    "icecream",
+]
+
+[tool.poetry]
+packages = [{ include = "affine_tracer", from = "src" }]
+package-dir = {"" = "affine_tracer"}
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
